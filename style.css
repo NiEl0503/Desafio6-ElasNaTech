@@ -1,0 +1,60 @@
+body {
+    background: radial-gradient(circle, rgb(222, 242, 244) 0%, #3eb1b6 100%);
+    font-family: sans-serif;
+}
+
+.h {
+    color: #38969a;
+    text-align: center;
+}
+
+.pimeiro {
+    margin: 80px;
+    background: #38969a;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    }
+
+.segundo {
+    padding: 80px;
+    background: #38969a;
+    border-radius: 15px 15px 15px 15px;
+    color: white;
+}
+
+.terceiro {
+    border: 20px solid white;
+    background: #38969a;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 40%;
+}
+a:hover{
+    background-color:  #38969a;
+}
+
+.orden {
+    color: white;
+}
+
+ul{
+    list-style-type: square;
+
+    color: white;
+}
+
+ul li::marker {
+    color:  #12494b;
+}
+ol li::marker{
+    color:  #12494b;
+}
